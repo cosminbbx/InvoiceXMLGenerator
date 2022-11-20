@@ -1,0 +1,12 @@
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/bin/Debug/net5.0/InvoiceBuilder.deps.json
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/bin/Debug/net5.0/InvoiceBuilder.dll
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/bin/Debug/net5.0/ref/InvoiceBuilder.dll
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/bin/Debug/net5.0/InvoiceBuilder.pdb
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.csprojAssemblyReference.cache
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.AssemblyInfoInputs.cache
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.AssemblyInfo.cs
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.csproj.CoreCompileInputs.cache
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.dll
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/ref/InvoiceBuilder.dll
+/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/Debug/net5.0/InvoiceBuilder.pdb

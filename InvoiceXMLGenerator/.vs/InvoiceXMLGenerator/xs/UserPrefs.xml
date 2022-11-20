@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{F6AE0F45-72AF-4415-9C54-D1B20F593351}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs">
+    <Files>
+      <File FileName="InvoiceXMLGenerator/Program.cs" Line="27" Column="85" />
+      <File FileName="InvoiceBuilder/Namespaces.cs" Line="11" Column="34" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs" Line="24" Column="25" />
+      <File FileName="InvoiceBuilder/ValueObjects/ElementBuilder.cs" Line="13" Column="2" />
+      <File FileName="InvoiceBuilder/InvoiceInfoDto.cs" Line="6" Column="18" />
+      <File FileName="InvoiceBuilder/Dtos/GeneralInfoDto.cs" Line="4" Column="32" />
+      <File FileName="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs" Line="10" Column="46" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs" Line="4" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InvoiceXMLGenerator" expanded="True">
+            <Node name="InvoiceBuilder" expanded="True">
+              <Node name="Dtos" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="InvoiceBuilder" expanded="True">
+                <Node name="InvoiceWrapperElementBuilder.cs" selected="True" />
+              </Node>
+              <Node name="ValueObjects" expanded="True" />
+            </Node>
+            <Node name="InvoiceXMLGenerator" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
