@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C9VVt8j8Nj95vpD8ByrowL2dCQD9VcLw8C5DZQmvDV/Gs0SdOuheBVgsCoGxOjAwpfQBUGQGypPgq9sHkhUJmg==",
+  "dgSpecHash": "gB8yXcsYs7W8nnU7Tcf1D6BShkiRjz4nWIEn3fAhIVFc3324wWJcXHyInO8jKW5CMY23mkie8cOlFUEL/cc2cw==",
   "success": true,
-  "projectFilePath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
+  "projectFilePath": "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

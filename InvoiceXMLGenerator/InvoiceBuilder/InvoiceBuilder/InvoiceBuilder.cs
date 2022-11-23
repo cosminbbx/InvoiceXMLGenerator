@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using System.Xml.Linq;
 using InvoiceBuilder.Extensions;
 using InvoiceBuilder.ValueObjects;
@@ -14,11 +16,22 @@ namespace InvoiceBuilder.InvoiceBuilder
 
             root.AddGeneralInfo(info.GeneralInfo);
 
+            root.AddSellerInfo(info.SellerInfo);
+
+            root.AddCustomerInfo(info.CustomerInfo);
+
+            root.AddMonetaryInfo(info.MonetaryInfo);
+
+            root.AddInvoiceLineInfo(info.InvoiceLineInfo);
+
             XDocument doc = new(
-                new XDeclaration("1.0", "utf-8", "yes"),
                 root
             );
+
+            
             return doc;
         }
+
+       
     }
 }

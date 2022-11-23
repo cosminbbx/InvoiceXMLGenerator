@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/virgacosmin/.nuget/packages/": {}
+    "/Users/cosmin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
+      "projectUniqueName": "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
       "projectName": "InvoiceXMLGenerator",
-      "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
-      "packagesPath": "/Users/virgacosmin/.nuget/packages/",
-      "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/obj/",
+      "projectPath": "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.csproj",
+      "packagesPath": "/Users/cosmin/.nuget/packages/",
+      "outputPath": "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/virgacosmin/.config/NuGet/NuGet.Config"
+        "/Users/cosmin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -51,8 +51,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
-              "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
+            "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
+              "projectPath": "/Users/cosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
             }
           }
         }
