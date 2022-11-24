@@ -1,0 +1,231 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model InvoiceViewModel
+
+
+<form method="post">
+
+    <div class="form-group">
+        <label for="GeneralInfoID">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoID" value="@Model.GeneralInfoID">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoIssueDate">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoIssueDate" value="@Model.GeneralInfoIssueDate">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoDueDate">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoDueDate" value="@Model.GeneralInfoDueDate">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoInvoiceTypeCode">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoInvoiceTypeCode" value="@Model.GeneralInfoInvoiceTypeCode">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoNote">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoNote" value="@Model.GeneralInfoNote">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoNote2">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoNote2" value="@Model.GeneralInfoNote2">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoTaxPointDate">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoTaxPointDate" value="@Model.GeneralInfoTaxPointDate">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoDocumentCurrencyCode">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoDocumentCurrencyCode" value="@Model.GeneralInfoDocumentCurrencyCode">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoContractDocumentReference">Email address</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoContractDocumentReference" value="@Model.GeneralInfoContractDocumentReference">
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label for="SellerElectonicAddress">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerElectonicAddress" value="@Model.SellerElectonicAddress">
+    </div>
+    <div class="form-group">
+        <label for="SellerSchemeId">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerSchemeId" value="@Model.SellerSchemeId">
+    </div>
+    <div class="form-group">
+        <label for="SellerPartyId">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerPartyId" value="@Model.SellerPartyId">
+    </div>
+    <div class="form-group">
+        <label for="SellerAddress">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerAddress" value="@Model.SellerAddress">
+    </div>
+    <div class="form-group">
+        <label for="SellerCity">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerCity" value="@Model.SellerCity">
+    </div>
+    <div class="form-group">
+        <label for="SellerPostalCode">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerPostalCode" value="@Model.SellerPostalCode">
+    </div>
+    <div class="form-group">
+        <label for="SellerCountrySubentity">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerCountrySubentity" value="@Model.SellerCountrySubentity">
+    </div>
+    <div class="form-group">
+        <label for="SellerCountry">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerCountry" value="@Model.SellerCountry">
+    </div>
+    <div class="form-group">
+        <label for="SellerTVID">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerTVID" value="@Model.SellerTVID">
+    </div>
+    <div class="form-group">
+        <label for="SellerRegistrationName">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerRegistrationName" value="@Model.SellerRegistrationName">
+    </div>
+    <div class="form-group">
+        <label for="SellerRegistrationID">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerRegistrationID" value="@Model.SellerRegistrationID">
+    </div>
+    <div class="form-group">
+        <label for="SellerCompanyLegalName">Email address</label>
+        <input type="text" class="form-control" asp-for="SellerCompanyLegalName" value="@Model.SellerCompanyLegalName">
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="CustomerElectonicAddress">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerElectonicAddress" value="@Model.CustomerElectonicAddress">
+    </div>
+    <div class="form-group">
+        <label for="CustomerSchemeId">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerSchemeId" value="@Model.CustomerSchemeId">
+    </div>
+    <div class="form-group">
+        <label for="CustomerPartyId">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerPartyId" value="@Model.CustomerPartyId">
+    </div>
+    <div class="form-group">
+        <label for="CustomerAddress">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerAddress" value="@Model.CustomerAddress">
+    </div>
+    <div class="form-group">
+        <label for="CustomerCity">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerCity" value="@Model.CustomerCity">
+    </div>
+    <div class="form-group">
+        <label for="CustomerCountrySubentity">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerCountrySubentity" value="@Model.CustomerCountrySubentity">
+    </div>
+    <div class="form-group">
+        <label for="CustomerCountry">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerCountry" value="@Model.CustomerCountry">
+    </div>
+    <div class="form-group">
+        <label for="CustomerTVID">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerTVID" value="@Model.CustomerTVID">
+    </div>
+    <div class="form-group">
+        <label for="CustomerRegistrationName">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerRegistrationName" value="@Model.CustomerRegistrationName">
+
+    </div>
+    <div class="form-group">
+        <label for="CustomerRegistrationID">Email address</label>
+        <input type="text" class="form-control" asp-for="CustomerRegistrationID" value="@Model.CustomerRegistrationID">
+    </div>
+
+
+    <div class="form-group">
+        <label for="MonetaryPaymentMeansCode">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryPaymentMeansCode" value="@Model.MonetaryPaymentMeansCode">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryPayeeFinancialId">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryPayeeFinancialId" value="@Model.MonetaryPayeeFinancialId">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryPayeeFinancialName">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryPayeeFinancialName" value="@Model.MonetaryPayeeFinancialName">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxAmount" value="@Model.MonetaryTaxAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryCurency">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryCurency" value="@Model.MonetaryCurency">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryLineExtensionAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryLineExtensionAmount" value="@Model.MonetaryLineExtensionAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxExclusiveAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxExclusiveAmount" value="@Model.MonetaryTaxExclusiveAmount" />
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxInclusiveAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxInclusiveAmount" value="@Model.MonetaryTaxInclusiveAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryPayableAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="MonetaryPayableAmount" value="@Model.MonetaryPayableAmount">
+    </div>
+
+
+    <div class="form-group">
+        <label for="LineInvoicedQuantity">Email address</label>
+        <input type="text" class="form-control" asp-for="LineInvoicedQuantity" value="@Model.LineInvoicedQuantity">
+    </div>
+    <div class="form-group">
+        <label for="LineUnitCode">Email address</label>
+        <input type="text" class="form-control" asp-for="LineUnitCode" value="@Model.LineUnitCode">
+    </div>
+    <div class="form-group">
+        <label for="LineLineExtensionAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="LineLineExtensionAmount" value="@Model.LineLineExtensionAmount">
+    </div>
+    <div class="form-group">
+        <label for="LineCurrency">Email address</label>
+        <input type="text" class="form-control" asp-for="LineCurrency" value="@Model.LineCurrency">
+    </div>
+    <div class="form-group">
+        <label for="LineDescription">Email address</label>
+        <input type="text" class="form-control" asp-for="LineDescription" value="@Model.LineDescription">
+    </div>
+    <div class="form-group">
+        <label for="LineName">Email address</label>
+        <input type="text" class="form-control" asp-for="LineName" value="@Model.LineName">
+    </div>
+    <div class="form-group">
+        <label for="LineSellersItemIdentification">Email address</label>
+        <input type="text" class="form-control" asp-for="LineSellersItemIdentification" value="@Model.LineSellersItemIdentification">
+    </div>
+    <div class="form-group">
+        <label for="LineCommodityClassification">Email address</label>
+        <input type="text" class="form-control" asp-for="LineCommodityClassification" value="@Model.LineCommodityClassification">
+    </div>
+    <div class="form-group">
+        <label for="LineClassifiedTaxId">Email address</label>
+        <input type="text" class="form-control" asp-for="LineClassifiedTaxId" value="@Model.LineClassifiedTaxId">
+    </div>
+    <div class="form-group">
+        <label for="LineClassifiedTaxPercent">Email address</label>
+        <input type="text" class="form-control" asp-for="LineClassifiedTaxPercent" value="@Model.LineClassifiedTaxPercent">
+    </div>
+    <div class="form-group">
+        <label for="LinePriceAmount">Email address</label>
+        <input type="text" class="form-control" asp-for="LinePriceAmount" value="@Model.LinePriceAmount">
+    </div>
+    <div class="form-group">
+        <label for="LineBaseQuantity">Email address</label>
+        <input type="text" class="form-control" asp-for="LineBaseQuantity" value="@Model.LineBaseQuantity">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

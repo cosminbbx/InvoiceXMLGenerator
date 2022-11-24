@@ -1,38 +1,47 @@
-﻿<Properties StartupConfiguration="{F6AE0F45-72AF-4415-9C54-D1B20F593351}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceBuilder/Dtos/InvoiceLineInfoDto.cs">
+﻿<Properties StartupConfiguration="{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}|Default">
+  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs">
     <Files>
-      <File FileName="InvoiceXMLGenerator/Program.cs" Line="69" Column="75" />
       <File FileName="InvoiceBuilder/Namespaces.cs" />
-      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs" Line="25" Column="28" />
-      <File FileName="InvoiceBuilder/ValueObjects/ElementBuilder.cs" Line="8" Column="32" />
-      <File FileName="InvoiceBuilder/Dtos/GeneralInfoDto.cs" Line="4" Column="18" />
-      <File FileName="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs" Line="151" Column="47" />
-      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs" Line="20" Column="1" />
-      <File FileName="InvoiceBuilder/Dtos/PartyInfoDto.cs" Line="4" Column="30" />
-      <File FileName="InvoiceBuilder/Dtos/InvoiceInfoDto.cs" Line="11" Column="56" />
-      <File FileName="InvoiceBuilder/Dtos/MonetaryInfoDto.cs" Line="16" Column="36" />
-      <File FileName="InvoiceBuilder/Dtos/InvoiceLineInfoDto.cs" Line="7" Column="9" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs" Line="32" Column="10" />
+      <File FileName="InvoiceBuilder/ValueObjects/ElementBuilder.cs" />
+      <File FileName="InvoiceBuilder/Dtos/GeneralInfoDto.cs" Line="13" Column="9" />
+      <File FileName="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs" Line="54" Column="85" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs" />
+      <File FileName="InvoiceBuilder/Dtos/PartyInfoDto.cs" Line="20" Column="1" />
+      <File FileName="InvoiceBuilder/Dtos/InvoiceInfoDto.cs" Line="12" Column="19" />
+      <File FileName="InvoiceBuilder/Dtos/MonetaryInfoDto.cs" Line="19" Column="1" />
+      <File FileName="InvoiceBuilder/Dtos/InvoiceLineInfoDto.cs" Line="6" Column="9" />
+      <File FileName="InvoiceXMLGenerator.Web/Controllers/HomeController.cs" Line="89" Column="1" />
+      <File FileName="InvoiceXMLGenerator.Web/Views/Home/Index.cshtml" Line="21" Column="25" />
+      <File FileName="InvoiceXMLGenerator.Web/Models/InvoiceViewModel.cs" Line="52" Column="23" />
+      <File FileName="InvoiceXMLGenerator.Web/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InvoiceXMLGenerator" expanded="True">
             <Node name="InvoiceBuilder" expanded="True">
-              <Node name="Dtos" expanded="True">
-                <Node name="InvoiceLineInfoDto.cs" selected="True" />
-              </Node>
+              <Node name="Dtos" expanded="True" />
               <Node name="Extensions" expanded="True" />
-              <Node name="InvoiceBuilder" expanded="True" />
+              <Node name="InvoiceBuilder" expanded="True">
+                <Node name="InvoiceBuilder.cs" selected="True" />
+              </Node>
               <Node name="ValueObjects" expanded="True" />
             </Node>
-            <Node name="InvoiceXMLGenerator" expanded="True" />
+            <Node name="InvoiceXMLGenerator.Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

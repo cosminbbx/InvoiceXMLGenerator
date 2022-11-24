@@ -28,10 +28,7 @@ namespace InvoiceBuilder.InvoiceBuilder
                 root
             );
 
-            
             return doc;
         }
-
-       
     }
 }

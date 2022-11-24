@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceXMLGenerator", "InvoiceXMLGenerator\InvoiceXMLGenerator.csproj", "{F6AE0F45-72AF-4415-9C54-D1B20F593351}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceBuilder", "InvoiceBuilder\InvoiceBuilder.csproj", "{AC4720C0-1243-46D5-840E-6E5B5B8C759F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceXMLGenerator.Web", "InvoiceXMLGenerator.Web\InvoiceXMLGenerator.Web.csproj", "{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6AE0F45-72AF-4415-9C54-D1B20F593351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6AE0F45-72AF-4415-9C54-D1B20F593351}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6AE0F45-72AF-4415-9C54-D1B20F593351}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6AE0F45-72AF-4415-9C54-D1B20F593351}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC4720C0-1243-46D5-840E-6E5B5B8C759F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC4720C0-1243-46D5-840E-6E5B5B8C759F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4720C0-1243-46D5-840E-6E5B5B8C759F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4720C0-1243-46D5-840E-6E5B5B8C759F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
