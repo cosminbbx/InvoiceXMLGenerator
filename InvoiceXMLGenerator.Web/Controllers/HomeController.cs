@@ -22,6 +22,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             InvoiceViewModel formData = new()
