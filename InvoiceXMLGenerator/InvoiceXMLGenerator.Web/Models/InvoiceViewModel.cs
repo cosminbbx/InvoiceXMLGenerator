@@ -40,6 +40,9 @@ namespace InvoiceXMLGenerator.Web.Models
         public string MonetaryPaymentMeansCode { get; set; }
         public string MonetaryPayeeFinancialId { get; set; }
         public string MonetaryPayeeFinancialName { get; set; }
+        public string MonetaryCustomerPaymentMeansCode { get; set; }
+        public string MonetaryCustomerPayeeFinancialId { get; set; }
+        public string MonetaryCustomerPayeeFinancialName { get; set; }
 
         public string MonetaryTaxAmount { get; set; }
         public string MonetaryCurency { get; set; }

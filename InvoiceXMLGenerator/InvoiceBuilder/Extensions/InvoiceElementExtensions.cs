@@ -78,6 +78,12 @@ namespace InvoiceBuilder.Extensions
                     new XElement(Namespaces.CbcNamespace + "ID", info.PayeeFinancialId),
                     new XElement(Namespaces.CbcNamespace + "Name", info.PayeeFinancialName))));
 
+            root.Add(new XElement(Namespaces.CacNamespace + "PaymentMeans",
+                new XElement(Namespaces.CbcNamespace + "PaymentMeansCode", info.CustomerPaymentMeansCode, new XAttribute("name", "Credit transfer")),
+                new XElement(Namespaces.CacNamespace + "PayeeFinancialAccount",
+                    new XElement(Namespaces.CbcNamespace + "ID", info.CustomerPayeeFinancialId),
+                    new XElement(Namespaces.CbcNamespace + "Name", info.CustomerPayeeFinancialName))));
+
             root.Add(new XElement(Namespaces.CacNamespace + "TaxTotal",
                 new XElement(Namespaces.CbcNamespace + "TaxAmount", info.TaxAmount, new XAttribute("currencyID", info.Curency))));
 

@@ -6,226 +6,261 @@
 
 <form method="post">
 
+    <h5>Informatii generale</h5>
+
     <div class="form-group">
-        <label for="GeneralInfoID">Email address</label>
+        <label for="GeneralInfoID">BT-1 Nr. factura</label>
         <input type="text" class="form-control" asp-for="GeneralInfoID" value="@Model.GeneralInfoID">
     </div>
     <div class="form-group">
-        <label for="GeneralInfoIssueDate">Email address</label>
+        <label for="GeneralInfoIssueDate">BT-2 Data emitere factura</label>
         <input type="text" class="form-control" asp-for="GeneralInfoIssueDate" value="@Model.GeneralInfoIssueDate">
     </div>
     <div class="form-group">
-        <label for="GeneralInfoDueDate">Email address</label>
+        <label for="GeneralInfoDueDate">BT-9 Data scadenta factura</label>
         <input type="text" class="form-control" asp-for="GeneralInfoDueDate" value="@Model.GeneralInfoDueDate">
     </div>
     <div class="form-group">
-        <label for="GeneralInfoInvoiceTypeCode">Email address</label>
+        <label for="GeneralInfoInvoiceTypeCode">BT-3 Codul tipului facturii</label>
         <input type="text" class="form-control" asp-for="GeneralInfoInvoiceTypeCode" value="@Model.GeneralInfoInvoiceTypeCode">
     </div>
     <div class="form-group">
-        <label for="GeneralInfoNote">Email address</label>
-        <input type="text" class="form-control" asp-for="GeneralInfoNote" value="@Model.GeneralInfoNote">
-    </div>
-    <div class="form-group">
-        <label for="GeneralInfoNote2">Email address</label>
-        <input type="text" class="form-control" asp-for="GeneralInfoNote2" value="@Model.GeneralInfoNote2">
-    </div>
-    <div class="form-group">
-        <label for="GeneralInfoTaxPointDate">Email address</label>
-        <input type="text" class="form-control" asp-for="GeneralInfoTaxPointDate" value="@Model.GeneralInfoTaxPointDate">
-    </div>
-    <div class="form-group">
-        <label for="GeneralInfoDocumentCurrencyCode">Email address</label>
+        <label for="GeneralInfoDocumentCurrencyCode">BT-5 Codul monedei facturii</label>
         <input type="text" class="form-control" asp-for="GeneralInfoDocumentCurrencyCode" value="@Model.GeneralInfoDocumentCurrencyCode">
     </div>
     <div class="form-group">
-        <label for="GeneralInfoContractDocumentReference">Email address</label>
+        <label for="GeneralInfoTaxPointDate">BT-7 Data de exigibilitate a TVA</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoTaxPointDate" value="@Model.GeneralInfoTaxPointDate">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoNote">BT-22 Comentariu</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoNote" value="@Model.GeneralInfoNote">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoNote2">BT-22 Comentariu</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoNote2" value="@Model.GeneralInfoNote2">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoContractDocumentReference">BT-12 Referinta contractului</label>
         <input type="text" class="form-control" asp-for="GeneralInfoContractDocumentReference" value="@Model.GeneralInfoContractDocumentReference">
     </div>
 
 
-
+    <h5>Vanzator</h5>
 
     <div class="form-group">
-        <label for="SellerElectonicAddress">Email address</label>
+        <label for="SellerElectonicAddress">BT-34 Adresa electronica</label>
         <input type="text" class="form-control" asp-for="SellerElectonicAddress" value="@Model.SellerElectonicAddress">
     </div>
     <div class="form-group">
-        <label for="SellerSchemeId">Email address</label>
+        <label for="SellerSchemeId">BT-34-1 Identificatorul schemei</label>
         <input type="text" class="form-control" asp-for="SellerSchemeId" value="@Model.SellerSchemeId">
     </div>
     <div class="form-group">
-        <label for="SellerPartyId">Email address</label>
+        <label for="SellerPartyId">BT-29 Identificator</label>
         <input type="text" class="form-control" asp-for="SellerPartyId" value="@Model.SellerPartyId">
     </div>
     <div class="form-group">
-        <label for="SellerAddress">Email address</label>
+        <label for="SellerAddress">BT-35 Strada</label>
         <input type="text" class="form-control" asp-for="SellerAddress" value="@Model.SellerAddress">
     </div>
     <div class="form-group">
-        <label for="SellerCity">Email address</label>
+        <label for="SellerCity">BT-37 Oras</label>
         <input type="text" class="form-control" asp-for="SellerCity" value="@Model.SellerCity">
     </div>
     <div class="form-group">
-        <label for="SellerPostalCode">Email address</label>
+        <label for="SellerPostalCode">BT-38 Cod Postal</label>
         <input type="text" class="form-control" asp-for="SellerPostalCode" value="@Model.SellerPostalCode">
     </div>
     <div class="form-group">
-        <label for="SellerCountrySubentity">Email address</label>
+        <label for="SellerCountrySubentity">BT-39 Subdiviziunea tarii</label>
         <input type="text" class="form-control" asp-for="SellerCountrySubentity" value="@Model.SellerCountrySubentity">
     </div>
     <div class="form-group">
-        <label for="SellerCountry">Email address</label>
+        <label for="SellerCountry">BT-40 Tara</label>
         <input type="text" class="form-control" asp-for="SellerCountry" value="@Model.SellerCountry">
     </div>
     <div class="form-group">
-        <label for="SellerTVID">Email address</label>
+        <label for="SellerTVID">BT-31 Identificatorul de TVA</label>
         <input type="text" class="form-control" asp-for="SellerTVID" value="@Model.SellerTVID">
     </div>
     <div class="form-group">
-        <label for="SellerRegistrationName">Email address</label>
+        <label for="SellerRegistrationName">BT-27 Nume</label>
         <input type="text" class="form-control" asp-for="SellerRegistrationName" value="@Model.SellerRegistrationName">
     </div>
     <div class="form-group">
-        <label for="SellerRegistrationID">Email address</label>
+        <label for="SellerRegistrationID">BT-30 Identificatorul de inregistrare legala</label>
         <input type="text" class="form-control" asp-for="SellerRegistrationID" value="@Model.SellerRegistrationID">
     </div>
     <div class="form-group">
-        <label for="SellerCompanyLegalName">Email address</label>
+        <label for="SellerCompanyLegalName">BT-33 Informatii juridice suplimentare</label>
         <input type="text" class="form-control" asp-for="SellerCompanyLegalName" value="@Model.SellerCompanyLegalName">
     </div>
 
-
+    <h5>Cumparator</h5>
 
     <div class="form-group">
-        <label for="CustomerElectonicAddress">Email address</label>
+        <label for="CustomerElectonicAddress">BT-49 Adresa electronica</label>
         <input type="text" class="form-control" asp-for="CustomerElectonicAddress" value="@Model.CustomerElectonicAddress">
     </div>
     <div class="form-group">
-        <label for="CustomerSchemeId">Email address</label>
+        <label for="CustomerSchemeId">BT-49-1 Identificatorul schemei</label>
         <input type="text" class="form-control" asp-for="CustomerSchemeId" value="@Model.CustomerSchemeId">
     </div>
     <div class="form-group">
-        <label for="CustomerPartyId">Email address</label>
+        <label for="CustomerPartyId">BT-46 Identificator</label>
         <input type="text" class="form-control" asp-for="CustomerPartyId" value="@Model.CustomerPartyId">
     </div>
     <div class="form-group">
-        <label for="CustomerAddress">Email address</label>
+        <label for="CustomerAddress">BT-50 Strada</label>
         <input type="text" class="form-control" asp-for="CustomerAddress" value="@Model.CustomerAddress">
     </div>
     <div class="form-group">
-        <label for="CustomerCity">Email address</label>
+        <label for="CustomerCity">BT-52 Oras</label>
         <input type="text" class="form-control" asp-for="CustomerCity" value="@Model.CustomerCity">
     </div>
     <div class="form-group">
-        <label for="CustomerCountrySubentity">Email address</label>
+        <label for="CustomerCountrySubentity">BT-54 Subdiviziunea tarii</label>
         <input type="text" class="form-control" asp-for="CustomerCountrySubentity" value="@Model.CustomerCountrySubentity">
     </div>
     <div class="form-group">
-        <label for="CustomerCountry">Email address</label>
+        <label for="CustomerCountry">BT-55 Tara</label>
         <input type="text" class="form-control" asp-for="CustomerCountry" value="@Model.CustomerCountry">
     </div>
     <div class="form-group">
-        <label for="CustomerTVID">Email address</label>
+        <label for="CustomerTVID">BT-48 Identificatorul de TVA</label>
         <input type="text" class="form-control" asp-for="CustomerTVID" value="@Model.CustomerTVID">
     </div>
     <div class="form-group">
-        <label for="CustomerRegistrationName">Email address</label>
+        <label for="CustomerRegistrationName">BT-44 Nume</label>
         <input type="text" class="form-control" asp-for="CustomerRegistrationName" value="@Model.CustomerRegistrationName">
 
     </div>
     <div class="form-group">
-        <label for="CustomerRegistrationID">Email address</label>
+        <label for="CustomerRegistrationID">BT-47 Identificatorul de inregistrare legala</label>
         <input type="text" class="form-control" asp-for="CustomerRegistrationID" value="@Model.CustomerRegistrationID">
     </div>
 
+    <h5>Instructiuni de plata vanzator</h5>
 
     <div class="form-group">
-        <label for="MonetaryPaymentMeansCode">Email address</label>
+        <label for="MonetaryPaymentMeansCode">BT-81 Codul tipului instrumentului de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryPaymentMeansCode" value="@Model.MonetaryPaymentMeansCode">
     </div>
     <div class="form-group">
-        <label for="MonetaryPayeeFinancialId">Email address</label>
+        <label for="MonetaryPayeeFinancialId">BT-84 Identificatorul contului de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryPayeeFinancialId" value="@Model.MonetaryPayeeFinancialId">
     </div>
     <div class="form-group">
-        <label for="MonetaryPayeeFinancialName">Email address</label>
+        <label for="MonetaryPayeeFinancialName">BT-85 Numele contului de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryPayeeFinancialName" value="@Model.MonetaryPayeeFinancialName">
     </div>
+
+    <h5>Instructiuni de plata cumparator</h5>
+
     <div class="form-group">
-        <label for="MonetaryTaxAmount">Email address</label>
+        <label for="MonetaryCustomerPaymentMeansCode">BT-81 Codul tipului instrumentului de plata</label>
+        <input type="text" class="form-control" asp-for="MonetaryCustomerPaymentMeansCode" value="@Model.MonetaryCustomerPaymentMeansCode">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryCustomerPayeeFinancialId">BT-84 Identificatorul contului de plata</label>
+        <input type="text" class="form-control" asp-for="MonetaryCustomerPayeeFinancialId" value="@Model.MonetaryCustomerPayeeFinancialId">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryCustomerPayeeFinancialName">BT-85 Numele contului de plata</label>
+        <input type="text" class="form-control" asp-for="MonetaryCustomerPayeeFinancialName" value="@Model.MonetaryCustomerPayeeFinancialName">
+    </div>
+
+    <h5>Totaluri TVA</h5>
+
+    <div class="form-group">
+        <label for="MonetaryTaxAmount">BT-110 Valoarea totala a TVA a facturii</label>
         <input type="text" class="form-control" asp-for="MonetaryTaxAmount" value="@Model.MonetaryTaxAmount">
     </div>
     <div class="form-group">
-        <label for="MonetaryCurency">Email address</label>
+        <label for="MonetaryCurency">Codul monedei</label>
         <input type="text" class="form-control" asp-for="MonetaryCurency" value="@Model.MonetaryCurency">
     </div>
+
+
+    <h5>Totalurile documentului</h5>
+
     <div class="form-group">
-        <label for="MonetaryLineExtensionAmount">Email address</label>
+        <label for="MonetaryLineExtensionAmount">BT-106 Suma valorilor nete ale liniilor facturii</label>
         <input type="text" class="form-control" asp-for="MonetaryLineExtensionAmount" value="@Model.MonetaryLineExtensionAmount">
     </div>
     <div class="form-group">
-        <label for="MonetaryTaxExclusiveAmount">Email address</label>
+        <label for="MonetaryTaxExclusiveAmount">BT-109 Valoarea totala a facturii fara TVA</label>
         <input type="text" class="form-control" asp-for="MonetaryTaxExclusiveAmount" value="@Model.MonetaryTaxExclusiveAmount" />
     </div>
     <div class="form-group">
-        <label for="MonetaryTaxInclusiveAmount">Email address</label>
+        <label for="MonetaryTaxInclusiveAmount">BT-112 Valoarea totala a facturii cu TVA</label>
         <input type="text" class="form-control" asp-for="MonetaryTaxInclusiveAmount" value="@Model.MonetaryTaxInclusiveAmount">
     </div>
     <div class="form-group">
-        <label for="MonetaryPayableAmount">Email address</label>
+        <label for="MonetaryPayableAmount">BT-115 Suma de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryPayableAmount" value="@Model.MonetaryPayableAmount">
     </div>
 
+    <h5>Linia facturii</h5>
 
     <div class="form-group">
-        <label for="LineInvoicedQuantity">Email address</label>
-        <input type="text" class="form-control" asp-for="LineInvoicedQuantity" value="@Model.LineInvoicedQuantity">
-    </div>
-    <div class="form-group">
-        <label for="LineUnitCode">Email address</label>
-        <input type="text" class="form-control" asp-for="LineUnitCode" value="@Model.LineUnitCode">
-    </div>
-    <div class="form-group">
-        <label for="LineLineExtensionAmount">Email address</label>
-        <input type="text" class="form-control" asp-for="LineLineExtensionAmount" value="@Model.LineLineExtensionAmount">
-    </div>
-    <div class="form-group">
-        <label for="LineCurrency">Email address</label>
-        <input type="text" class="form-control" asp-for="LineCurrency" value="@Model.LineCurrency">
-    </div>
-    <div class="form-group">
-        <label for="LineDescription">Email address</label>
-        <input type="text" class="form-control" asp-for="LineDescription" value="@Model.LineDescription">
-    </div>
-    <div class="form-group">
-        <label for="LineName">Email address</label>
+        <label for="LineName">BT-153 Nume articol</label>
         <input type="text" class="form-control" asp-for="LineName" value="@Model.LineName">
     </div>
     <div class="form-group">
-        <label for="LineSellersItemIdentification">Email address</label>
-        <input type="text" class="form-control" asp-for="LineSellersItemIdentification" value="@Model.LineSellersItemIdentification">
-    </div>
-    <div class="form-group">
-        <label for="LineCommodityClassification">Email address</label>
-        <input type="text" class="form-control" asp-for="LineCommodityClassification" value="@Model.LineCommodityClassification">
-    </div>
-    <div class="form-group">
-        <label for="LineClassifiedTaxId">Email address</label>
-        <input type="text" class="form-control" asp-for="LineClassifiedTaxId" value="@Model.LineClassifiedTaxId">
-    </div>
-    <div class="form-group">
-        <label for="LineClassifiedTaxPercent">Email address</label>
-        <input type="text" class="form-control" asp-for="LineClassifiedTaxPercent" value="@Model.LineClassifiedTaxPercent">
-    </div>
-    <div class="form-group">
-        <label for="LinePriceAmount">Email address</label>
+        <label for="LinePriceAmount">BT-146 Pretul net al articolului</label>
         <input type="text" class="form-control" asp-for="LinePriceAmount" value="@Model.LinePriceAmount">
     </div>
     <div class="form-group">
-        <label for="LineBaseQuantity">Email address</label>
+        <label for="LineCurrency">Codul monedei</label>
+        <input type="text" class="form-control" asp-for="LineCurrency" value="@Model.LineCurrency">
+    </div>
+    <div class="form-group">
+        <label for="LineBaseQuantity">BT-149 Cantitatea de baza a pretului articolului</label>
         <input type="text" class="form-control" asp-for="LineBaseQuantity" value="@Model.LineBaseQuantity">
     </div>
+    <div class="form-group">
+        <label for="LineInvoicedQuantity">BT-129 Cantitate facturata</label>
+        <input type="text" class="form-control" asp-for="LineInvoicedQuantity" value="@Model.LineInvoicedQuantity">
+    </div>
+
+
+    <div class="form-group">
+        <label for="LineUnitCode">BT-130 UM</label>
+        <input type="text" class="form-control" asp-for="LineUnitCode" value="@Model.LineUnitCode">
+    </div>
+    <div class="form-group">
+        <label for="LineClassifiedTaxId">BT-151 Codul categoriei de TVA</label>
+        <input type="text" class="form-control" asp-for="LineClassifiedTaxId" value="@Model.LineClassifiedTaxId">
+    </div>
+    <div class="form-group">
+        <label for="LineClassifiedTaxPercent">BT-152 Cota de TVA</label>
+        <input type="text" class="form-control" asp-for="LineClassifiedTaxPercent" value="@Model.LineClassifiedTaxPercent">
+    </div>
+    <div class="form-group">
+        <label for="LineLineExtensionAmount">BT-131 Valoarea neta a liniei</label>
+        <input type="text" class="form-control" asp-for="LineLineExtensionAmount" value="@Model.LineLineExtensionAmount">
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="LineDescription">BT-154 Descriere articol</label>
+        <input type="text" class="form-control" asp-for="LineDescription" value="@Model.LineDescription">
+    </div>
+    <div class="form-group">
+        <label for="LineSellersItemIdentification">BT-155 Identificatorul vanzatorului articolului</label>
+        <input type="text" class="form-control" asp-for="LineSellersItemIdentification" value="@Model.LineSellersItemIdentification">
+    </div>
+    <div class="form-group">
+        <label for="LineCommodityClassification">BT-158 Identificatorul clasificarii articolului</label>
+        <input type="text" class="form-control" asp-for="LineCommodityClassification" value="@Model.LineCommodityClassification">
+    </div>
+
+
+
+
 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

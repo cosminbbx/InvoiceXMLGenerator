@@ -6,6 +6,9 @@ namespace InvoiceBuilder.Dtos
         public string PaymentMeansCode { get; set; }
         public string PayeeFinancialId { get; set; }
         public string PayeeFinancialName { get; set; }
+        public string CustomerPaymentMeansCode { get; set; }
+        public string CustomerPayeeFinancialId { get; set; }
+        public string CustomerPayeeFinancialName { get; set; }
 
         public string TaxAmount { get; set; }
         public string Curency { get; set; }
