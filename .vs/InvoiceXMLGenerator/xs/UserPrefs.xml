@@ -9,14 +9,14 @@
     <Files>
       <File FileName="InvoiceXMLGenerator.Web/appsettings.json" />
       <File FileName="InvoiceXMLGenerator.Web/Controllers/HomeController.cs" />
-      <File FileName="InvoiceXMLGenerator.Web/Startup.cs" />
+      <File FileName="InvoiceXMLGenerator.Web/Startup.cs" Line="1" Column="1" />
       <File FileName="InvoiceXMLGenerator.Web/Properties/launchSettings.json" Line="24" Column="8" />
+      <File FileName="InvoiceXMLGenerator.Web/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InvoiceXMLGenerator" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="InvoiceXMLGenerator.Web" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />

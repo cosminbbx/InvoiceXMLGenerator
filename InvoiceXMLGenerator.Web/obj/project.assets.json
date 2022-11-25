@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "InvoiceBuilder/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/InvoiceBuilder.dll": {}
         },
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "InvoiceBuilder >= 1.0.0"
     ]
   },
@@ -42,14 +42,14 @@
         "/Users/virgacosmin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
               "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
@@ -64,8 +64,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
