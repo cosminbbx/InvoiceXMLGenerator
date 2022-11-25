@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+        "projectName": "InvoiceBuilder",
+        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+        "packagesPath": "/Users/virgacosmin/.nuget/packages/",
+        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/virgacosmin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
+        "projectName": "InvoiceXMLGenerator.Web",
+        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
+        "packagesPath": "/Users/virgacosmin/.nuget/packages/",
+        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/virgacosmin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
+                "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
