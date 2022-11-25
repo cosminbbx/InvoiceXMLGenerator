@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {}
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {}
   },
   "projects": {
-    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
         "projectName": "InvoiceBuilder",
-        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
         "packagesPath": "/Users/virgacosmin/.nuget/packages/",
-        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/",
+        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/virgacosmin/.config/NuGet/NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {
+    "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
+        "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
         "projectName": "InvoiceXMLGenerator.Web",
-        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
+        "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/InvoiceXMLGenerator.Web.csproj",
         "packagesPath": "/Users/virgacosmin/.nuget/packages/",
-        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/obj/",
+        "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/virgacosmin/.config/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
-                "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
+              "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj": {
+                "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj"
               }
             }
           }

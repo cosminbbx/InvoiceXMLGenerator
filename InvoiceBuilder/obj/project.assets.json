@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+      "projectUniqueName": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
       "projectName": "InvoiceBuilder",
-      "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
+      "projectPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/InvoiceBuilder.csproj",
       "packagesPath": "/Users/virgacosmin/.nuget/packages/",
-      "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceXMLGenerator/InvoiceBuilder/obj/",
+      "outputPath": "/Users/virgacosmin/Documents/GitHub/InvoiceXMLGenerator/InvoiceBuilder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/virgacosmin/.config/NuGet/NuGet.Config"

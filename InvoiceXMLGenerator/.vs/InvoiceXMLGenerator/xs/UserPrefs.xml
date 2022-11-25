@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}|Default">
+  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs">
+    <Files>
+      <File FileName="InvoiceBuilder/Namespaces.cs" Line="1" Column="1" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs" />
+      <File FileName="InvoiceBuilder/ValueObjects/ElementBuilder.cs" />
+      <File FileName="InvoiceBuilder/Dtos/GeneralInfoDto.cs" />
+      <File FileName="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs" Line="87" Column="1" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs" />
+      <File FileName="InvoiceBuilder/Dtos/PartyInfoDto.cs" />
+      <File FileName="InvoiceBuilder/Dtos/InvoiceInfoDto.cs" />
+      <File FileName="InvoiceBuilder/Dtos/MonetaryInfoDto.cs" />
+      <File FileName="InvoiceBuilder/Dtos/InvoiceLineInfoDto.cs" />
+      <File FileName="InvoiceXMLGenerator.Web/Controllers/HomeController.cs" Line="159" Column="36" />
+      <File FileName="InvoiceXMLGenerator.Web/Views/Home/Index.cshtml" Line="202" Column="11" />
+      <File FileName="InvoiceXMLGenerator.Web/Models/InvoiceViewModel.cs" />
+      <File FileName="InvoiceXMLGenerator.Web/Program.cs" />
+      <File FileName="InvoiceXMLGenerator.Web/wwwroot/css/site.css" />
+      <File FileName="InvoiceXMLGenerator.Web/Views/Shared/_Layout.cshtml" Line="25" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InvoiceXMLGenerator" expanded="True">
+            <Node name="InvoiceBuilder" expanded="True">
+              <Node name="Dtos" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="InvoiceBuilder" expanded="True" />
+              <Node name="ValueObjects" expanded="True" />
+            </Node>
+            <Node name="InvoiceXMLGenerator.Web" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
