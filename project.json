@@ -1,3 +1,5 @@
-﻿"commands": {
-  "web": "Microsoft.AspNet.Server.Kestrel"
+﻿{
+    "commands": {
+        "web": "Microsoft.AspNet.Server.Kestrel"
+    }
 }
