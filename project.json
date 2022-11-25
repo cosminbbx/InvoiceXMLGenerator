@@ -1,5 +1,9 @@
 ﻿{
     "commands": {
         "web": "Microsoft.AspNet.Server.Kestrel"
+    },
+    "dependencies": {
+        "Microsoft.NETCore": "5.0.0",
+        "System.Runtime.Serialization.Primitives": "4.0.10"
     }
 }
