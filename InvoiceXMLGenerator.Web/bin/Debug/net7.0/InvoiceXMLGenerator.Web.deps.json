@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "InvoiceXMLGenerator.Web/1.0.0": {
+        "dependencies": {
+          "InvoiceBuilder": "1.0.0"
+        },
+        "runtime": {
+          "InvoiceXMLGenerator.Web.dll": {}
+        }
+      },
+      "InvoiceBuilder/1.0.0": {
+        "runtime": {
+          "InvoiceBuilder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InvoiceXMLGenerator.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InvoiceBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
