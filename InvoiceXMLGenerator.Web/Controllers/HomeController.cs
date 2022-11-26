@@ -43,7 +43,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
                 SellerRegistrationID = "J22/579/1999",
                 SellerCompanyLegalName = "Capital social subscris si varsat:200 lei",
 
-                CustomerElectonicAddress = "exemple@gmail.com",
+                CustomerElectonicAddress = "economic.is@ancpi.ro",
                 CustomerSchemeId = "EM",
                 CustomerPartyId = "9768500",
                 CustomerAddress = "JUD. IASI, MUN. IASI, STR. COSTACHE NEGRI, NR.48",
