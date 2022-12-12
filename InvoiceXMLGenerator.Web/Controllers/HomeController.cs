@@ -20,15 +20,17 @@ namespace InvoiceXMLGenerator.Web.Controllers
         {
             InvoiceViewModel formData = new()
             {
-                GeneralInfoID = "129",
-                GeneralInfoIssueDate = "2022-08-29",
-                GeneralInfoDueDate = "2022-09-29",
+                GeneralInfoID = "143",
+                GeneralInfoIssueDate = "2022-11-13",
+                GeneralInfoDueDate = "2022-12-13",
                 GeneralInfoInvoiceTypeCode = "380-FACTURA",
-                GeneralInfoNote = "RO86TREZ406501503X023745 - Trezoreria IASI",
-                GeneralInfoNote2 = "Proces verbal de predare din 04.12.2019",
-                GeneralInfoTaxPointDate = "2022-08-31",
+                GeneralInfoNote = "STRONA Factura 140/13.11.2022",
+                GeneralInfoNote2 = "",
+                GeneralInfoTaxPointDate = "2022-11-30",
                 GeneralInfoDocumentCurrencyCode = "RON",
-                GeneralInfoContractDocumentReference = "Contract 1323/26.01.2022",
+                GeneralInfoContractDocumentReference = "",
+                GeneralInfoInvoiceDocumentReference = "140",
+                GeneralInfoInvoiceDocumentDate = "2022-11-13",
 
                 SellerElectonicAddress = "ctirpescu@yahoo.com",
                 SellerSchemeId = "EM",
@@ -40,7 +42,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
                 SellerCountry = "RO",
                 SellerTVID = "RO12056072",
                 SellerRegistrationName = "S.C.LIGANT-PROD S.R.L.",
-                SellerRegistrationID = "J22/579/1999",
+                SellerRegistrationID = "12056072",
                 SellerCompanyLegalName = "Capital social subscris si varsat:200 lei",
 
                 CustomerElectonicAddress = "economic.is@ancpi.ro",
@@ -61,25 +63,28 @@ namespace InvoiceXMLGenerator.Web.Controllers
                 MonetaryCustomerPayeeFinancialId = "RO61BTRLRONCRT0221263901",
                 MonetaryCustomerPayeeFinancialName = "TRANSILVANIA",
 
-                MonetaryTaxAmount = "1225.00",
+                MonetaryTaxAmount = "-173.26",
                 MonetaryCurency = "RON",
-                MonetaryLineExtensionAmount = "932.24",
-                MonetaryTaxExclusiveAmount = "932.24",
-                MonetaryTaxInclusiveAmount = "1109.37",
-                MonetaryPayableAmount = "1109.37",
+                MonetaryTaxableAmount = "-911.88",
+                MonetaryTaxSubtotalAmount = "-173.26",
+                MonetaryTaxPercentege = "19",
+                MonetaryLineExtensionAmount = "-911.88",
+                MonetaryTaxExclusiveAmount = "-911.88",
+                MonetaryTaxInclusiveAmount = "-1085.14",
+                MonetaryPayableAmount = "-1085.14",
 
-                LineInvoicedQuantity = "1.000",
+                LineInvoicedQuantity = "-1.000",
                 LineUnitCode = "H87",
-                LineLineExtensionAmount = "932.24",
+                LineLineExtensionAmount = "-911.88",
                 LineCurrency = "RON",
-                LineDescription = "Refacturare partiala factura fiscala de energie electrica seria MS eon nr. 130014915904/27.08.2022 aferenta consumului inregistrat la sediul B.C.P.I. Pascani,cf.Contract inchiriere 2273/30.09.2019.",
+                LineDescription = "Refact. part. factura fiscala de gaze naturale nr.10227450340/11.11.22. aferenta cons. intreg.la sediul BCPI Pascani conf. Contr. inch. 2273/30.09.19 si Proces-verbal de predare din 04",
                 LineName = "Refacturare energie electrica",
                 LineSellersItemIdentification = "104",
                 LineCommodityClassification = "71314100-3",
                 LineClassifiedTaxId = "S",
                 LineClassifiedTaxPercent = "19",
-                LinePriceAmount = "932.240",
-                LineBaseQuantity = "1.000"
+                LinePriceAmount = "911.880",
+                LineBaseQuantity = "-1.000"
             };
 
             return View(formData);
@@ -92,15 +97,17 @@ namespace InvoiceXMLGenerator.Web.Controllers
             {
                 GeneralInfo = new InvoiceBuilder.Dtos.GeneralInfoDto()
                 {
-                    ID = formData.GeneralInfoID,
-                    IssueDate = formData.GeneralInfoIssueDate,
-                    DueDate = formData.GeneralInfoDueDate,
-                    InvoiceTypeCode = formData.GeneralInfoInvoiceTypeCode,
-                    Note = formData.GeneralInfoNote,
-                    Note2 = formData.GeneralInfoNote2,
-                    TaxPointDate = formData.GeneralInfoTaxPointDate,
-                    DocumentCurrencyCode = formData.GeneralInfoDocumentCurrencyCode,
-                    ContractDocumentReference = formData.GeneralInfoContractDocumentReference
+                    ID = string.IsNullOrEmpty(formData.GeneralInfoID) ? "" : formData.GeneralInfoID,
+                    IssueDate = string.IsNullOrEmpty(formData.GeneralInfoIssueDate) ? "" : formData.GeneralInfoIssueDate,
+                    DueDate = string.IsNullOrEmpty(formData.GeneralInfoDueDate) ? "" : formData.GeneralInfoDueDate,
+                    InvoiceTypeCode = string.IsNullOrEmpty(formData.GeneralInfoInvoiceTypeCode) ? "" : formData.GeneralInfoInvoiceTypeCode,
+                    Note = string.IsNullOrEmpty(formData.GeneralInfoNote) ? "" : formData.GeneralInfoNote,
+                    Note2 = string.IsNullOrEmpty(formData.GeneralInfoNote2) ? "" : formData.GeneralInfoNote2,
+                    TaxPointDate = string.IsNullOrEmpty(formData.GeneralInfoTaxPointDate) ? "" : formData.GeneralInfoTaxPointDate,
+                    DocumentCurrencyCode = "RON",
+                    ContractDocumentReference = string.IsNullOrEmpty(formData.GeneralInfoContractDocumentReference) ? "" : formData.GeneralInfoContractDocumentReference,
+                    InvoiceDocumentReference = string.IsNullOrEmpty(formData.GeneralInfoInvoiceDocumentReference) ? "" : formData.GeneralInfoInvoiceDocumentReference,
+                    InvoiceDocumentDate = string.IsNullOrEmpty(formData.GeneralInfoInvoiceDocumentDate) ? "" : formData.GeneralInfoInvoiceDocumentDate
                 },
                 SellerInfo = new InvoiceBuilder.Dtos.PartyInfoDto()
                 {
@@ -143,7 +150,10 @@ namespace InvoiceXMLGenerator.Web.Controllers
                     LineExtensionAmount = string.IsNullOrEmpty(formData.MonetaryLineExtensionAmount) ? "" : formData.MonetaryLineExtensionAmount,
                     TaxExclusiveAmount = string.IsNullOrEmpty(formData.MonetaryTaxExclusiveAmount) ? "" : formData.MonetaryTaxExclusiveAmount,
                     TaxInclusiveAmount = string.IsNullOrEmpty(formData.MonetaryTaxInclusiveAmount) ? "" : formData.MonetaryTaxInclusiveAmount,
-                    PayableAmount = string.IsNullOrEmpty(formData.MonetaryPayableAmount) ? "" : formData.MonetaryPayableAmount
+                    PayableAmount = string.IsNullOrEmpty(formData.MonetaryPayableAmount) ? "" : formData.MonetaryPayableAmount,
+                    TaxableAmount = formData.MonetaryTaxableAmount,
+                    TaxSubtotalAmount = formData.MonetaryTaxSubtotalAmount,
+                    TaxPercentege = formData.MonetaryTaxPercentege
                 },
                 InvoiceLineInfo = new InvoiceBuilder.Dtos.InvoiceLineInfoDto()
                 {

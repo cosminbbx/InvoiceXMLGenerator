@@ -12,5 +12,7 @@ namespace InvoiceBuilder.Dtos
         public string TaxPointDate { get; set; }
         public string DocumentCurrencyCode { get; set; }
         public string ContractDocumentReference { get; set; }
+        public string InvoiceDocumentReference { get; set; }
+        public string InvoiceDocumentDate { get; set; }
     }
 }

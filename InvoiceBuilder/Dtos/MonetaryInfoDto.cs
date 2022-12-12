@@ -11,6 +11,9 @@ namespace InvoiceBuilder.Dtos
         public string CustomerPayeeFinancialName { get; set; }
 
         public string TaxAmount { get; set; }
+        public string TaxableAmount { get; set; }
+        public string TaxSubtotalAmount { get; set; }
+        public string TaxPercentege { get; set; }
         public string Curency { get; set; }
 
         public string LineExtensionAmount { get; set; }

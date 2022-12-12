@@ -40,6 +40,14 @@
         <label for="GeneralInfoContractDocumentReference">BT-12 Referinta contractului</label>
         <input type="text" class="form-control" asp-for="GeneralInfoContractDocumentReference" value="@Model.GeneralInfoContractDocumentReference">
     </div>
+    <div class="form-group">
+        <label for="GeneralInfoInvoiceDocumentReference">BT-25 Referinta la o factura anterioara</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoInvoiceDocumentReference" value="@Model.GeneralInfoInvoiceDocumentReference">
+    </div>
+    <div class="form-group">
+        <label for="GeneralInfoInvoiceDocumentDate">BT-26 Data de emitere a facturii anterioare</label>
+        <input type="text" class="form-control" asp-for="GeneralInfoInvoiceDocumentDate" value="@Model.GeneralInfoInvoiceDocumentDate">
+    </div>
 
 
     <h5>Vanzator</h5>
@@ -137,7 +145,7 @@
         <input type="text" class="form-control" asp-for="CustomerRegistrationID" value="@Model.CustomerRegistrationID">
     </div>
 
-    <h5>Instructiuni de plata vanzator</h5>
+    <h5>Instructiuni de plata</h5>
 
     <div class="form-group">
         <label for="MonetaryPaymentMeansCode">BT-81 Codul tipului instrumentului de plata</label>
@@ -151,9 +159,6 @@
         <label for="MonetaryPayeeFinancialName">BT-85 Numele contului de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryPayeeFinancialName" value="@Model.MonetaryPayeeFinancialName">
     </div>
-
-    <h5>Instructiuni de plata cumparator</h5>
-
     <div class="form-group">
         <label for="MonetaryCustomerPayeeFinancialId">BT-84 Identificatorul contului de plata</label>
         <input type="text" class="form-control" asp-for="MonetaryCustomerPayeeFinancialId" value="@Model.MonetaryCustomerPayeeFinancialId">
@@ -168,6 +173,18 @@
     <div class="form-group">
         <label for="MonetaryTaxAmount">BT-110 Valoarea totala a TVA a facturii</label>
         <input type="text" class="form-control" asp-for="MonetaryTaxAmount" value="@Model.MonetaryTaxAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxableAmount">BT-116 Baza de calcul</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxableAmount" value="@Model.MonetaryTaxableAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxSubtotalAmount">BT-117 Valoare TVA</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxSubtotalAmount" value="@Model.MonetaryTaxSubtotalAmount">
+    </div>
+    <div class="form-group">
+        <label for="MonetaryTaxPercentege">BT-119 Cota categoriei de TVA</label>
+        <input type="text" class="form-control" asp-for="MonetaryTaxPercentege" value="@Model.MonetaryTaxPercentege">
     </div>
 
 

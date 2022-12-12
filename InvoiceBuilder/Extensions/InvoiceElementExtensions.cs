@@ -14,14 +14,30 @@ namespace InvoiceBuilder.Extensions
             root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "DueDate", info.DueDate));
             root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "InvoiceTypeCode", info.InvoiceTypeCode));
             root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "Note", info.Note));
-            root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "Note", info.Note2));
+
+            if (!string.IsNullOrEmpty(info.Note2))
+            {
+                root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "Note", info.Note2));
+            }
+
             root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "TaxPointDate", info.TaxPointDate));
             root.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "DocumentCurrencyCode", info.DocumentCurrencyCode));
 
-            var element = new XElement(Namespaces.CacNamespace + "ContractDocumentReference");
-            element.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "ID", info.ContractDocumentReference));
+            if(!string.IsNullOrEmpty(info.InvoiceDocumentReference) && !string.IsNullOrEmpty(info.InvoiceDocumentDate))
+            {
+                root.Add(new XElement(Namespaces.CacNamespace + "BillingReference",
+                new XElement(Namespaces.CacNamespace + "InvoiceDocumentReference",
+                    new XElement(Namespaces.CbcNamespace + "ID", info.InvoiceDocumentReference),
+                    new XElement(Namespaces.CbcNamespace + "IssueDate", info.InvoiceDocumentDate))));
+            }
 
-            root.Add(element);
+            if (!string.IsNullOrEmpty(info.ContractDocumentReference))
+            {
+                var element = new XElement(Namespaces.CacNamespace + "ContractDocumentReference");
+                element.Add(ElementBuilder.Build(Namespaces.CbcNamespace, "ID", info.ContractDocumentReference));
+
+                root.Add(element);
+            }
 
             return root;
         }
@@ -85,7 +101,15 @@ namespace InvoiceBuilder.Extensions
                     new XElement(Namespaces.CbcNamespace + "Name", info.CustomerPayeeFinancialName))));
 
             root.Add(new XElement(Namespaces.CacNamespace + "TaxTotal",
-                new XElement(Namespaces.CbcNamespace + "TaxAmount", info.TaxAmount, new XAttribute("currencyID", info.Curency))));
+                new XElement(Namespaces.CbcNamespace + "TaxAmount", info.TaxAmount, new XAttribute("currencyID", info.Curency)),
+                new XElement(Namespaces.CacNamespace + "TaxSubtotal",
+                    new XElement(Namespaces.CbcNamespace + "TaxableAmount", info.TaxableAmount, new XAttribute("currencyID", info.Curency)),
+                    new XElement(Namespaces.CbcNamespace + "TaxAmount", info.TaxSubtotalAmount, new XAttribute("currencyID", info.Curency)),
+                    new XElement(Namespaces.CacNamespace + "TaxCategory",
+                        new XElement(Namespaces.CbcNamespace + "ID","S"),
+                        new XElement(Namespaces.CbcNamespace + "Percent", info.TaxPercentege),
+                        new XElement(Namespaces.CacNamespace + "TaxScheme",
+                            new XElement(Namespaces.CbcNamespace + "ID", "VAT"))))));
 
             root.Add(new XElement(Namespaces.CacNamespace + "LegalMonetaryTotal",
                 new XElement(Namespaces.CbcNamespace + "LineExtensionAmount", info.LineExtensionAmount, new XAttribute("currencyID", info.Curency)),

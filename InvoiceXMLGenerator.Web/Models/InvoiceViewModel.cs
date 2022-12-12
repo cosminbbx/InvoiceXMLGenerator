@@ -12,6 +12,8 @@ namespace InvoiceXMLGenerator.Web.Models
         public string GeneralInfoTaxPointDate { get; set; }
         public string GeneralInfoDocumentCurrencyCode { get; set; }
         public string GeneralInfoContractDocumentReference { get; set; }
+        public string GeneralInfoInvoiceDocumentReference { get; set; }
+        public string GeneralInfoInvoiceDocumentDate { get; set; }
 
         public string SellerElectonicAddress { get; set; }
         public string SellerSchemeId { get; set; }
@@ -44,7 +46,11 @@ namespace InvoiceXMLGenerator.Web.Models
         public string MonetaryCustomerPayeeFinancialId { get; set; }
         public string MonetaryCustomerPayeeFinancialName { get; set; }
 
+        public string MonetaryTaxSubtotalAmount { get; set; }
         public string MonetaryTaxAmount { get; set; }
+        public string MonetaryTaxableAmount { get; set; }
+        public string MonetaryTaxPercentege { get; set; }
+
         public string MonetaryCurency { get; set; }
 
         public string MonetaryLineExtensionAmount { get; set; }
