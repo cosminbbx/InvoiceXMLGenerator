@@ -78,7 +78,7 @@ namespace InvoiceBuilder.Extensions
                         new XElement(Namespaces.CacNamespace + "Country", new XElement(Namespaces.CbcNamespace + "IdentificationCode", info.Country))),
                     new XElement(Namespaces.CacNamespace + "PartyTaxScheme",
                         new XElement(Namespaces.CbcNamespace + "CompanyID", info.TVID),
-                        new XElement(Namespaces.CacNamespace + "TaxScheme", new XElement(Namespaces.CbcNamespace + "ID", "VAT"))),
+                        new XElement(Namespaces.CacNamespace + "TaxScheme", "")),
                     new XElement(Namespaces.CacNamespace + "PartyLegalEntity",
                         new XElement(Namespaces.CbcNamespace + "RegistrationName", info.RegistrationName),
                         new XElement(Namespaces.CbcNamespace + "CompanyID", info.RegistrationID)))));
