@@ -89,13 +89,13 @@ namespace InvoiceBuilder.Extensions
         public static XElement AddMonetaryInfo(this XElement root, MonetaryInfoDto info)
         {
             root.Add(new XElement(Namespaces.CacNamespace + "PaymentMeans",
-                new XElement(Namespaces.CbcNamespace + "PaymentMeansCode", info.PaymentMeansCode, new XAttribute("name", "Credit transfer")),
+                new XElement(Namespaces.CbcNamespace + "PaymentMeansCode", info.PaymentMeansCode),
                 new XElement(Namespaces.CacNamespace + "PayeeFinancialAccount",
                     new XElement(Namespaces.CbcNamespace + "ID", info.PayeeFinancialId),
                     new XElement(Namespaces.CbcNamespace + "Name", info.PayeeFinancialName))));
 
             root.Add(new XElement(Namespaces.CacNamespace + "PaymentMeans",
-                new XElement(Namespaces.CbcNamespace + "PaymentMeansCode", info.CustomerPaymentMeansCode, new XAttribute("name", "Credit transfer")),
+                new XElement(Namespaces.CbcNamespace + "PaymentMeansCode", info.CustomerPaymentMeansCode),
                 new XElement(Namespaces.CacNamespace + "PayeeFinancialAccount",
                     new XElement(Namespaces.CbcNamespace + "ID", info.CustomerPayeeFinancialId),
                     new XElement(Namespaces.CbcNamespace + "Name", info.CustomerPayeeFinancialName))));
