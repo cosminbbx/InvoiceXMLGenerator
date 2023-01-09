@@ -49,6 +49,7 @@ namespace InvoiceXMLGenerator.Web.Models
         public string MonetaryTaxSubtotalAmount { get; set; }
         public string MonetaryTaxAmount { get; set; }
         public string MonetaryTaxableAmount { get; set; }
+        public string MonetaryTaxCode { get; set; }
         public string MonetaryTaxPercentege { get; set; }
 
         public string MonetaryCurency { get; set; }

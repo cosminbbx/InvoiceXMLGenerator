@@ -50,7 +50,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
                 CustomerPartyId = "9768500",
                 CustomerAddress = "JUD. IASI, MUN. IASI, STR. COSTACHE NEGRI, NR.48",
                 CustomerCity = "IASI",
-                CustomerCountrySubentity = "IS",
+                CustomerCountrySubentity = "RO-IS",
                 CustomerCountry = "RO",
                 CustomerTVID = "9768500",
                 CustomerRegistrationName = "OFICIUL DE CADASTRU SI PUBLICITATE IMOBILIARA IASI",
@@ -67,6 +67,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
                 MonetaryCurency = "RON",
                 MonetaryTaxableAmount = "-911.88",
                 MonetaryTaxSubtotalAmount = "-173.26",
+                MonetaryTaxCode = "S",
                 MonetaryTaxPercentege = "19",
                 MonetaryLineExtensionAmount = "-911.88",
                 MonetaryTaxExclusiveAmount = "-911.88",
@@ -153,6 +154,7 @@ namespace InvoiceXMLGenerator.Web.Controllers
                     PayableAmount = string.IsNullOrEmpty(formData.MonetaryPayableAmount) ? "" : formData.MonetaryPayableAmount,
                     TaxableAmount = formData.MonetaryTaxableAmount,
                     TaxSubtotalAmount = formData.MonetaryTaxSubtotalAmount,
+                    TaxCode = formData.MonetaryTaxCode,
                     TaxPercentege = formData.MonetaryTaxPercentege
                 },
                 InvoiceLineInfo = new InvoiceBuilder.Dtos.InvoiceLineInfoDto()

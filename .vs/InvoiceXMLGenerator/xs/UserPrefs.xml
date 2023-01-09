@@ -1,30 +1,41 @@
 ﻿<Properties StartupConfiguration="{3CB96917-95A1-4C70-9FD5-DCEFEBA0136D}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator.Web PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceXMLGenerator.Web/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvoiceBuilder/Namespaces.cs">
     <Files>
-      <File FileName="InvoiceXMLGenerator.Web/appsettings.json" />
+      <File FileName="InvoiceXMLGenerator.Web/Views/Home/Index.cshtml" />
+      <File FileName="InvoiceBuilder/Extensions/InvoiceElementExtensions.cs" Line="92" Column="99" />
       <File FileName="InvoiceXMLGenerator.Web/Controllers/HomeController.cs" />
-      <File FileName="InvoiceXMLGenerator.Web/Startup.cs" Line="1" Column="1" />
-      <File FileName="InvoiceXMLGenerator.Web/Properties/launchSettings.json" Line="27" Column="2" />
-      <File FileName="InvoiceXMLGenerator.Web/Program.cs" Line="1" Column="1" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceBuilder.cs" Line="15" Column="56" />
+      <File FileName="InvoiceBuilder/InvoiceBuilder/InvoiceWrapperElementBuilder.cs" Line="19" Column="98" />
+      <File FileName="InvoiceBuilder/Namespaces.cs" Line="10" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InvoiceXMLGenerator" expanded="True">
+            <Node name="InvoiceBuilder" expanded="True">
+              <Node name="Dtos" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="InvoiceBuilder" expanded="True" />
+              <Node name="Namespaces.cs" selected="True" />
+            </Node>
             <Node name="InvoiceXMLGenerator.Web" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.InvoiceXMLGenerator.Web PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
